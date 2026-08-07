@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Data Center OPF Research Data</title>
+</head>
+
+<body>
+
+<h1>Multi-Period AC Optimal Power Flow with Grid-Interactive Data Center Workload Flexibility</h1>
+
+<p>
+This page provides simulation data, model parameters, and numerical results
+associated with the paper.
+</p>
+
+<h2>Simulation Setup</h2>
+
+<ul>
+  <li>Test system: Modified IEEE 118-bus system</li>
+  <li>System base: 100 MVA</li>
+  <li>Data centers: 5</li>
+  <li>Scheduling horizon: 6 periods</li>
+  <li>Time resolution: 10 minutes</li>
+  <li>Maximum workload delay: 3 periods (30 minutes)</li>
+</ul>
+
+<h2>Input Data</h2>
+
+<ul>
+  <li><a href="data/dc_parameters.csv">Data Center Parameters</a></li>
+  <li><a href="data/workload_profiles.csv">Workload Profiles</a></li>
+  <li><a href="data/renewable_parameters.csv">Renewable Parameters</a></li>
+  <li><a href="data/renewable_profiles.csv">Renewable Profiles</a></li>
+  <li><a href="data/generator_parameters.csv">Generator Parameters</a></li>
+  <li><a href="data/branch_limits.csv">Transmission Branch Limits</a></li>
+  <li><a href="data/objective_parameters.csv">Objective Parameters</a></li>
+</ul>
+
+<h2>Results</h2>
+
+<ul>
+  <li><a href="results/noflex_summary.csv">NoFlex Summary</a></li>
+  <li><a href="results/withflex_summary.csv">WithFlex Summary</a></li>
+  <li><a href="results/branch_loading.csv">Branch Loading Results</a></li>
+  <li><a href="results/renewable_curtailment.csv">Renewable Curtailment Results</a></li>
+  <li><a href="results/workload_assignment.csv">Workload Assignment Results</a></li>
+  <li><a href="results/migration_summary.csv">Migration Summary</a></li>
+  <li><a href="results/delay_distribution.csv">Delay Distribution</a></li>
+  <li><a href="results/constraint_slacks.csv">Constraint Slacks</a></li>
+</ul>
+
+<h2>Code</h2>
+
+<ul>
+  <li><a href="code/model.jl">Optimization Model</a></li>
+  <li><a href="code/study_data.jl">Study Data</a></li>
+</ul>
+
+<h2>Data Availability</h2>
+
+<p>
+The transmission limits used in this study constitute a synthetic stress-test
+configuration and should not be interpreted as calibrated ratings of a specific
+real transmission system.
+</p>
+
+</body>
+</html>
