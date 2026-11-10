@@ -1,27 +1,8 @@
----
-title: "Data & Code"
-permalink: /data-code/
-author_profile: true
----
+### Day-Ahead Fast Frequency Response Scheduling for Multiple Data Centers
 
-This page provides datasets, code, and supplementary
-materials associated with my research publications.
+Julia implementation of a day-ahead FFR scheduling model for three data centers, coordinating UPS batteries, IT workloads, and standby generators.
 
-## Data Center and Power System Research
-
-### Paper 1
-
-**Paper Title**
-
-Description of the dataset.
-
-- [Dataset](LINK)
-- [Source Code](LINK)
-- [Documentation](LINK)
-- [Paper](LINK)
-
----
-
-## Other Research Data
-
-Additional datasets will be released here.
+- [Source Code](https://github.com/jiajinhuang18-hub/multi-data-center-ffr)
+- [Benchmark Data](https://github.com/jiajinhuang18-hub/multi-data-center-ffr/tree/main/benchmark)
+- [Experiment Scripts](https://github.com/jiajinhuang18-hub/multi-data-center-ffr/tree/main/experiments)
+- [Run Instructions](https://github.com/jiajinhuang18-hub/multi-data-center-ffr/blob/main/README.md)
