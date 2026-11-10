@@ -1,3 +1,9 @@
+---
+title: "Data & Code"
+permalink: /data-code/
+author_profile: true
+---
+
 ### Day-Ahead Fast Frequency Response Scheduling for Multiple Data Centers
 
 Julia implementation of a day-ahead FFR scheduling model for three data centers, coordinating UPS batteries, IT workloads, and standby generators.
